@@ -1,0 +1,109 @@
+body {
+    background-image: url("image/img2.jpg");
+    border-radius: 5px;
+    color: white;
+    border: 2px solid #fff;
+}
+
+h1 {
+    width: 500px;
+    margin: 0%;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #0000ee;
+    border: 2px solid #fff;
+}
+
+div {
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+body>table {
+    width: 50%;
+    background-color: aquamarine;
+    border-radius: 1px;
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+
+table.list {
+    width: 100%;
+    margin-top: -275px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.thead {
+    color: #ccc;
+    font-size: larger;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+td,
+th {
+    border: 2px solid #fff;
+    text-align: left;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+tr:nth-child(even),
+table.list thead>tr {
+    background-color: rgb(104, 48, 235);
+    margin-top: 0%;
+    border-radius: 5px;
+}
+
+input[type=text],
+input[type=number] {
+    width: 100%;
+    cursor: pointer;
+    padding: 8px 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px box-sizing: border-box;
+}
+
+.submit {
+    width: 100%;
+    background-color: rgb(104, 48, 235);
+    color: #fff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+    border: 2px solid #fff;
+}
+
+form.form-action-buttons {
+    text-align: right;
+    border-radius: 5px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+    border-radius: 5px;
+}
+
+label.validation-error {
+    color: red;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.hide {
+    display: none;
+}

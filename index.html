@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion hotelière</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <marquee behavior="alternate" direction="">
+        <h1 align="center">Bienvenue aux services hotelières</h1>
+    </marquee>
+
+    <table id="titre">
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault(); onFormSubmit()">
+
+                    <div>
+                        <label for="code">Matricule*<label class="validation-error hide"  id="codeValidationError" >Le champs matricule doit être renseigné</label></label>
+                        <input type="text" name="code" placeholder="saisir votre matricule" id="code">
+                    </div>
+                    <div>
+                        <label for="name">Nom*<label class="validation-error hide"  id="nameValidationError" >Le champs nom doit être renseigné</label> </label>
+                        <input type="text" name="name" placeholder="saisir votre nom" id="name">
+                    </div>
+                    <div>
+                        <label for="fullName">Prenom*<label class="validation-error hide"  id="fullNameValidationError" >Le champs prenom doit être renseigné</label> </label>
+                        <input type="text" name="fullName" placeholder="saisir votre prenom" id="fullName">
+                    </div>
+                    <div>
+                        <label for="gender">Sexe*<label class="validation-error hide"  id="genderValidationError" >Le champs sexe doit être renseigné</label> </label>
+                        <input type="text" name="gender" placeholder="saisir votre sexe" id="gender">
+                    </div>
+                    <div>
+                        <label for="address">Quartier*<label class="validation-error hide"  id="addressValidationError" >Le champs quartier doit être renseigné</label></label>
+                        <input type="text" name="address" placeholder="saisir votre quartier" id="address">
+                    </div>
+                    <div>
+                        <label for="class">Tel*<label class="validation-error hide"  id="classValidationError" >Le champs téléphone doit être renseigné</label></label>
+                        <input type="text" name="class" placeholder="saisir votre numéro de téléphone" id="class">
+                    </div>
+                    <div>
+                        <label for="school">Email</label>
+                        <input type="text" name="school" placeholder="saisir votre email" id="school">
+                    </div>
+                    <div>
+                        <input class="form-action-buttons submit" type="submit" value="Enregistrer">
+                    </div>
+
+                </form>
+            </td>
+            <td>
+                <table class="list" id="emplist">
+                    <thead>
+                        <tr>
+                            <td class="thead">Matricule</td>
+                            <td class="thead">Nom</td>
+                            <td class="thead">Prenom</td>
+                            <td class="thead">Sexe</td>
+                            <td class="thead">Quartier</td>
+                            <td class="thead">Tel</td>
+                            <td class="thead">Email</td>
+                            <td class="thead">Actions</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    </div>
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
